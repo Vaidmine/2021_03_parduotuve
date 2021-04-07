@@ -9,6 +9,9 @@
 
     {{-- <title>{{ config('app.name', 'Laravel') }}</title> --}}
         <title>{{ 'Cars and Makers' }}</title>
+        
+    <!-- FAVICON -->    
+        <link rel="shortcut icon" href="{{ asset('fav.png') }}" type='image/png'>
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}"></script>
